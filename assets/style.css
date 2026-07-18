@@ -1,0 +1,241 @@
+.stApp{
+    background:#f7f8fc;
+}
+
+.block-container{
+    max-width:1150px;
+    padding-top:2rem;
+}
+
+.hero{
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:35px;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+    color:#222;
+}
+
+.hero p{
+    color:#666;
+    font-size:1.1rem;
+}
+
+.metric-card{
+    background:white;
+    padding:20px;
+    border-radius:18px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.metric-title{
+    color:#777;
+    font-size:15px;
+}
+
+.metric-value{
+    font-size:34px;
+    font-weight:bold;
+}
+
+.summary-card{
+
+    background:white;
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    margin-bottom:20px;
+
+}
+
+.recommend-card{
+
+    background:#eef7ff;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    border-left:6px solid #4F8BF9;
+
+}
+
+div[data-testid="stExpander"]{
+
+    border-radius:15px;
+
+}
+
+.stButton>button{
+
+    border-radius:30px;
+
+    height:50px;
+
+    width:100%;
+
+    font-size:17px;
+
+    font-weight:600;
+
+}
+
+/* ---------- Dashboard Card ---------- */
+
+.dashboard-card{
+
+    background:white;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    margin-top:10px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.04);
+
+}
+
+
+/* ---------- Metric Card ---------- */
+
+.metric-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    border:1px solid #E5E7EB;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+
+    text-align:left;
+
+}
+
+
+.metric-title{
+
+    font-size:14px;
+
+    color:#6B7280;
+
+    margin-bottom:10px;
+
+}
+
+
+.metric-value{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#111827;
+
+}
+
+
+/* ---------- Summary ---------- */
+
+.summary-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    border:1px solid #E5E7EB;
+
+    padding:24px;
+
+    margin-top:25px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+
+}
+
+
+.summary-title{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+
+.summary-text{
+
+    font-size:16px;
+
+    color:#4B5563;
+
+    line-height:1.7;
+
+}
+/* ---------------- User Message ---------------- */
+
+.user-question{
+
+    background:#F3F4F6;
+
+    border-radius:18px;
+
+    padding:18px 22px;
+
+    margin-top:25px;
+
+    margin-bottom:25px;
+
+}
+
+.user-label{
+
+    font-size:13px;
+
+    color:#6B7280;
+
+    font-weight:600;
+
+    margin-bottom:8px;
+
+}
+
+.user-text{
+
+    font-size:18px;
+
+    font-weight:500;
+
+    color:#111827;
+
+}
+
+/* ---------------- Assistant Label ---------------- */
+
+.assistant-label{
+
+    font-size:14px;
+
+    font-weight:700;
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+
+}

@@ -1,0 +1,11 @@
+if venv is not activate 
+
+.venv\Scripts\activate    
+
+if u want to download dependency
+->
+pip install -r requirements.txt
+
+to run the code in UI
+->
+`streamlit run app.py`
