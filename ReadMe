@@ -8,4 +8,4 @@ pip install -r requirements.txt
 
 to run the code in UI
 ->
-`streamlit run app.py`
+`streamlit run app2.py`
