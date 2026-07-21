@@ -64,7 +64,7 @@ def render_layout(plan, response, question):
 
         with st.expander("📊 Supporting Analysis", expanded=False):
             
-            st.write(plan["intent"])
+            
             # ---------------- KPI ----------------
 
             if metric_block:
