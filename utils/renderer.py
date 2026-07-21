@@ -132,17 +132,17 @@ def render_metrics(response):
     cols = st.columns(len(metrics))
 
     colors = [
-        "#EEF2FF",
-        "#ECFDF5",
-        "#FEF3C7",
-        "#FCE7F3"
+        "#F4F4F4",
+        "#F4F4F4",
+        "#F4F4F4",
+        "#F4F4F4"
     ]
 
     for i, ((title, value), col) in enumerate(zip(metrics.items(), cols)):
 
         with col:
 
-            with st.container(border=True):
+            with st.container(border=False):
 
                 st.markdown(
     f"""
@@ -227,3 +227,5 @@ def render_sql(response):
             response["sql"],
             language="sql"
         )
+
+        
